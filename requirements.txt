@@ -1,0 +1,16 @@
+# 姿态动作识别打分系统依赖
+# 安装: pip install -r requirements.txt
+# 注意: torch 请根据机器情况选择 CPU 版或 CUDA 版(见下方注释)
+
+opencv-python
+numpy
+mediapipe
+PyQt6
+torch
+Pillow
+fastdtw
+scipy
+tqdm
+
+# 如果使用 GPU 版 torch, 请到 https://pytorch.org 选择对应 CUDA 版本安装, 例如:
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
